@@ -1,0 +1,11 @@
+<launch>
+
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+  
+    <param name="selected_joints" value="gripper_roll_joint gripper_finger_servo_joint" />
+    <param name="use_gui" value="true" />
+    <remap from="joint_states" to="joint_states_remapped_for_only_static_tf_publisher"/>    
+  </node>
+
+</launch>
