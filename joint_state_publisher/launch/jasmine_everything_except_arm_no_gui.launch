@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="true">
+    <param name="selected_joints" value="sensor_head_yaw_joint sensor_head_pitch_joint spin_lidar_spin_joint" />
+  </node>
+</launch>
