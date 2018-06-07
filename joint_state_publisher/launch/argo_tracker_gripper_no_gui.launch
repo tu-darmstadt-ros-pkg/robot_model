@@ -1,8 +1,7 @@
+<?xml version="1.0"?>
+
 <launch>
-
-
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="true">
     <param name="selected_joints" value="gripper_roll_joint gripper_finger_servo_joint" />
   </node>
-
 </launch>
