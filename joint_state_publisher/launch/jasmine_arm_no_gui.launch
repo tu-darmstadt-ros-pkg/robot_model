@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="arm_joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="true">
+    <param name="selected_joints" value="arm_yaw_joint arm_pitch_joint_0 arm_pitch_joint_1 arm_pitch_joint_2 arm_roll_joint gripper_servo_joint" />
+    <rosparam file="$(find joint_state_publisher)/config/zeros_jasmine_arm.yaml" command="load" />
+  </node>
+</launch>

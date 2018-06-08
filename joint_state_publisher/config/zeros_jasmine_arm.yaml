@@ -1,0 +1,7 @@
+zeros:
+  arm_yaw_joint: 1.57
+  arm_pitch_joint_0: 1.57
+  arm_pitch_joint_1: -1.57
+  arm_pitch_joint_2: 0
+  arm_roll_joint: 0
+  gripper_servo_joint: -1.57
